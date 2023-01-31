@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bookstore"
+version = "0.1.0"
+description = "Bookstore API - Made with Django Rest Framework. EBAC Mod 13 part of Fullstack with Python course."
+authors = ["Pedro Alencar <alencarable@aol.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.1"
+factory-boy = "^3.2.1"
+django = "^4.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
